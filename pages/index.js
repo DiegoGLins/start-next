@@ -1,5 +1,6 @@
 import styles from "../styles/Home.module.css";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,8 +13,14 @@ export default function Home() {
           content="Encontre a melhor roupa para você"
         ></meta>
       </Head>
-      <div className={styles.title}>
-        <h1>Home</h1>
+      <h1 className={styles.title}>Home</h1>
+      <div className={styles.center}>
+        <Image
+          src="/images/cidade-inteligente.jpg"
+          width="1300"
+          height="720"
+          alt="hamburger-frango"
+        />
       </div>
     </>
   );
