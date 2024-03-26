@@ -19,7 +19,7 @@ export default function Home() {
           src="/images/cidade-inteligente.jpg"
           width="1300"
           height="720"
-          alt="hamburger-frango"
+          alt="cidade-inteligente"
         />
       </div>
     </>
